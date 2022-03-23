@@ -1,0 +1,45 @@
+:root {
+  --primary-color: rgb(74, 80, 41);
+  --secondary-color: #deebe0;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  background: no-repeat linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  font-family: cursive;
+}
+h1 {
+  color: var(--primary-color);
+  font-size: 100px;
+}
+.photo-img {
+  margin: 100px;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  width: 120px;
+  text-align: center;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
