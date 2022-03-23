@@ -4,7 +4,9 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  background: no-repeat linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  background: #EACB9F;
+  background-origin: border-box;
+  background-repeat: no-repeat
   font-family: cursive;
 }
 h1 {
