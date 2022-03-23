@@ -4,9 +4,9 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  background: #EACB9F;
+  background: #eacb9f;
   background-origin: border-box;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
   font-family: cursive;
 }
 h1 {
